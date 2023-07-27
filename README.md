@@ -22,27 +22,27 @@ All routes are prefixed with `/api/v1/`.
 ### Authentication
 
 - **Register User**
-- `POST /api/v1/auth/register`
-- Register a new user.
+    * `POST /api/v1/auth/register`
+    * Register a new user.
 
 - **User Login**
-- `POST /api/v1/auth/login`
-- Log in an existing user.
+    * `POST /api/v1/auth/login`
+    * Log in an existing user.
 
 - **User Logout**
-- `POST /api/v1/auth/logout`
-- Log out the authenticated user. Requires API token.
+    * `POST /api/v1/auth/logout`
+    * Log out the authenticated user. Requires API token.
 
 ### Profile
 
 - **View User Profile**
-- `GET /api/v1/profile`
-- Retrieve the profile data of the authenticated user. Requires API token.
+    * `GET /api/v1/profile`
+    * Retrieve the profile data of the authenticated user. Requires API token.
 
 - **Update User Profile**
-- `PUT /api/v1/profile`
-- Update the profile data of the authenticated user. Requires API token.
+    * `PUT /api/v1/profile`
+    * Update the profile data of the authenticated user. Requires API token.
 
 - **Update Password**
-- `PUT /api/v1/password`
-- Update the password of the authenticated user. Requires API token.
+    * `PUT /api/v1/password`
+    * Update the password of the authenticated user. Requires API token.
